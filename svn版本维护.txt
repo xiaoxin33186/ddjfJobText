@@ -1,0 +1,35 @@
+====================================================
+http://panfuy.iteye.com/blog/1278865
+需求一：
+有一个客户想对产品做定制，但是我们并不想修改原有的svn中trunk的代码。
+方法：
+用svn建立一个新的branches，从这个branche做为一个新的起点来开发
+svn copy svn://server/trunk svn://server/branches/ep -m "init ep"
+svn copy https://10.96.2.112/svn/wechat/trunk https://10.96.2.112/svn/wechat/branches/20161125_Apply  -m "init 20161125_Apply"
+tags:
+svn copy https://10.96.2.112/svn/wechat/trunk https://10.96.2.112/svn/wechat/tags/20161129_Apply  -m "init 20161129_Apply"
+
+Tip:
+
+如果你的svn中以前没有branches这个的目录，只有trunk这个，你可以用
+svn mkdir branches
+新建个目录
+
+需求二：
+产品开发已经基本完成，并且通过很严格的测试，这时候我们就想发布给客户使用，发布我们的1.0版本
+svn copy svn://server/trunk svn://server/tags/release-1.0 -m "1.0 released"
+
+咦，这个和branches有什么区别，好像啥区别也没有？
+是的，branches和tags是一样的，都是目录，只是我们不会对这个release-1.0的tag做修改了，不再提交了，如果提交那么就是branches
+
+需求三：
+有一天，突然在trunk下的core中发现一个致命的bug,那么所有的branches一定也一样了，该怎么办？
+svn -r 148:149 merge svn://server/trunk branches/ep
+
+branch合并到trunk
+svn merge https://10.96.2.112/svn/wechat/trunk/wechat-parent@HEAD https://10.96.2.112/svn/wechat/branches/20170610-Parent@HEAD
+
+
+
+branch合并到trunk
+svn merge https://10.96.2.112/svn/WECHAT/trunk/wechat-parent@HEAD https://10.96.2.112/svn/WECHAT/branches/wechat-parent_20170630@HEAD
