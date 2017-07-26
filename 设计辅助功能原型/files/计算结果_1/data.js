@@ -1,0 +1,71 @@
+﻿$axure.loadCurrentPage({
+  "url":"计算结果_1.html",
+  "generationDate":new Date(1481800603128.36),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"4283fe07c9604c2291354734574b677a",
+    "type":"Axure:Page",
+    "name":"计算结果",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"5d155a0709f246cdb99dad93eb68ef4f",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":50,
+              "y":39},
+            "size":{
+              "width":265,
+              "height":251}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6d9c56ef18054bf4ba950b5dfc956614",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":50,
+                  "y":39},
+                "size":{
+                  "width":265,
+                  "height":251}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/计算结果_1/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "5d155a0709f246cdb99dad93eb68ef4f":{
+      "scriptId":"u0"},
+    "6d9c56ef18054bf4ba950b5dfc956614":{
+      "scriptId":"u1"}}});

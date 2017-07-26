@@ -1,0 +1,123 @@
+﻿$axure.loadCurrentPage({
+  "url":"微信通知查询结果-查询成功.html",
+  "generationDate":new Date(1481800603340.38),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"462c3bfa660f41888df8d33ee190e44d",
+    "type":"Axure:Page",
+    "name":"微信通知查询结果-查询成功",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"064198e85e454a27a7951ff5c13a494a",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":64,
+              "y":30},
+            "size":{
+              "width":506,
+              "height":865}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"84a820fd4dde4441be064fbbe7b877b0",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":64,
+                  "y":30},
+                "size":{
+                  "width":506,
+                  "height":865}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/微信通知查询结果-查询成功/u0.png"}},
+{
+          "id":"0823d270ec9e4c58802a3d7ba0622260",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":84,
+              "y":287},
+            "size":{
+              "width":466,
+              "height":423}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2687e385f77245d986dd15cd78bcafee",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":84,
+                  "y":287},
+                "size":{
+                  "width":466,
+                  "height":423}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 评估价查询结果页面",
+                      "target":{
+                        "targetType":"page",
+                        "url":"评估价查询结果页面.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/微信通知查询结果-查询成功/u2.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "064198e85e454a27a7951ff5c13a494a":{
+      "scriptId":"u0"},
+    "84a820fd4dde4441be064fbbe7b877b0":{
+      "scriptId":"u1"},
+    "0823d270ec9e4c58802a3d7ba0622260":{
+      "scriptId":"u2"},
+    "2687e385f77245d986dd15cd78bcafee":{
+      "scriptId":"u3"}}});

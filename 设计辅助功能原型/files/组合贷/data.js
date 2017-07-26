@@ -1,0 +1,71 @@
+﻿$axure.loadCurrentPage({
+  "url":"组合贷.html",
+  "generationDate":new Date(1481800603117.36),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"2b66e38d3612419180c16c74ae9b2772",
+    "type":"Axure:Page",
+    "name":"组合贷",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"72ca205385c94ffea9b38082658fde4e",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":50,
+              "y":41},
+            "size":{
+              "width":283,
+              "height":337}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e4228a660ff0491180406ea89d42c3c6",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":50,
+                  "y":41},
+                "size":{
+                  "width":283,
+                  "height":337}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/组合贷/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "72ca205385c94ffea9b38082658fde4e":{
+      "scriptId":"u0"},
+    "e4228a660ff0491180406ea89d42c3c6":{
+      "scriptId":"u1"}}});

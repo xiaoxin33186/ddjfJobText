@@ -1,0 +1,71 @@
+﻿$axure.loadCurrentPage({
+  "url":"纯公积金贷.html",
+  "generationDate":new Date(1481800603106.36),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"00e6cfaf4d3849119350ec61caf4bd05",
+    "type":"Axure:Page",
+    "name":"纯公积金贷",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"0f75f63aa3ab4d5e9e5528d39ffcaeff",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":64,
+              "y":47},
+            "size":{
+              "width":285,
+              "height":275}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"5a18e817932b40218d2e86b3e7ea3d55",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":64,
+                  "y":47},
+                "size":{
+                  "width":285,
+                  "height":275}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/纯公积金贷/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "0f75f63aa3ab4d5e9e5528d39ffcaeff":{
+      "scriptId":"u0"},
+    "5a18e817932b40218d2e86b3e7ea3d55":{
+      "scriptId":"u1"}}});

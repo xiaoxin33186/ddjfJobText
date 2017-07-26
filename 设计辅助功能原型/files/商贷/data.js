@@ -1,0 +1,71 @@
+﻿$axure.loadCurrentPage({
+  "url":"商贷.html",
+  "generationDate":new Date(1481800603094.36),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"37cadf0c93f64b9abed43034bde573d6",
+    "type":"Axure:Page",
+    "name":"商贷",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"e34fd5482d6147909415fdba9296b90e",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":47,
+              "y":40},
+            "size":{
+              "width":283,
+              "height":275}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"42fc7faca3c843b9ae6e5c43bfd52833",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":47,
+                  "y":40},
+                "size":{
+                  "width":283,
+                  "height":275}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/商贷/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "e34fd5482d6147909415fdba9296b90e":{
+      "scriptId":"u0"},
+    "42fc7faca3c843b9ae6e5c43bfd52833":{
+      "scriptId":"u1"}}});
